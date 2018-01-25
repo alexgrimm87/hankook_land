@@ -1,0 +1,601 @@
+.h-right {
+  z-index: 0;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+  .h-right:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #f25c19; }
+  .h-right:hover:after {
+    width: 100%; }
+
+.header {
+  overflow: hidden;
+  padding-top: 28px;
+  background: url("../images/header-bg.jpg") no-repeat center;
+  -moz-background-size: cover;
+  background-size: cover; }
+  .header .header-logos {
+    margin-bottom: 95px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .header .header-logos a {
+      display: inline-block;
+      text-decoration: none;
+      -webkit-transition: all 300ms ease;
+      -o-transition: all 300ms ease;
+      -moz-transition: all 300ms ease;
+      transition: all 300ms ease; }
+      .header .header-logos a:hover {
+        opacity: .8; }
+  .header h2 {
+    text-align: center;
+    margin: 0 0 64px 0;
+    color: black;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 79px; }
+  .header .form-outer-wrap {
+    max-width: 756px;
+    margin: 0 auto 30px auto;
+    border: 1px solid black;
+    padding: 3px; }
+    .header .form-outer-wrap .form-wrap {
+      background-color: rgba(0, 0, 0, 0.85); }
+      .header .form-outer-wrap .form-wrap .form-inner-wrap {
+        padding-bottom: 14px;
+        max-width: 671px;
+        margin: 0 auto; }
+        .header .form-outer-wrap .form-wrap .form-inner-wrap h3 {
+          text-align: center;
+          margin: 0;
+          color: white;
+          font-size: 29px;
+          font-weight: 600;
+          line-height: 87px;
+          text-transform: uppercase; }
+        .header .form-outer-wrap .form-wrap .form-inner-wrap form {
+          max-width: 440px;
+          margin: 0 auto 18px auto; }
+          .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row {
+            margin-bottom: 22px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            -moz-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between; }
+            .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field span {
+              margin-bottom: 6px;
+              display: block;
+              color: white;
+              font-family: OpenSans;
+              font-size: 19px;
+              font-weight: 300;
+              line-height: 23px; }
+            .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field select {
+              width: 143px;
+              height: 40px;
+              border: 2px solid #fff;
+              background: transparent;
+              color: #fff;
+              font-family: OpenSans;
+              font-size: 20px;
+              font-weight: 600;
+              line-height: 23px; }
+              .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field select option {
+                background: black; }
+              .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field select.error {
+                border: 2px solid #ff4f00; }
+            .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field .header-select .jq-selectbox__select {
+              border: 2px solid #fff;
+              background: transparent;
+              -webkit-border-radius: 0;
+              -moz-border-radius: 0;
+              border-radius: 0;
+              width: 143px;
+              height: 40px;
+              text-shadow: none;
+              -webkit-box-shadow: none;
+              -moz-box-shadow: none;
+              box-shadow: none; }
+              .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field .header-select .jq-selectbox__select .jq-selectbox__select-text {
+                color: #fff;
+                font-family: OpenSans;
+                font-size: 20px;
+                font-weight: 600; }
+              .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field .header-select .jq-selectbox__select .jq-selectbox__trigger {
+                border-left: 0; }
+                .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field .header-select .jq-selectbox__select .jq-selectbox__trigger .jq-selectbox__trigger-arrow {
+                  border-top: 9px solid white; }
+            .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field .header-select .jq-selectbox__dropdown {
+              border: 0;
+              background: black; }
+              .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field .header-select .jq-selectbox__dropdown ul li {
+                color: #fff;
+                font-family: OpenSans;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 23px; }
+                .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field .header-select .jq-selectbox__dropdown ul li:hover {
+                  background: #f25c19; }
+          .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field {
+            margin-bottom: 23px; }
+            .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field input {
+              padding-left: 10px;
+              width: 100%;
+              height: 57px;
+              border: 1px solid white;
+              background: transparent;
+              color: white;
+              font-family: OpenSans;
+              font-size: 19px;
+              font-weight: 300;
+              line-height: 75px; }
+              .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field input.error {
+                border: 1px solid #ff4f00; }
+                .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field input.error::-webkit-input-placeholder {
+                  color: #ff4f00; }
+                .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field input.error::-moz-placeholder {
+                  color: #ff4f00; }
+                .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field input.error:-moz-placeholder {
+                  color: #ff4f00; }
+                .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field input.error:-ms-input-placeholder {
+                  color: #ff4f00; }
+              .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field input::-webkit-input-placeholder {
+                color: #fff; }
+              .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field input::-moz-placeholder {
+                color: #fff; }
+              .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field input:-moz-placeholder {
+                color: #fff; }
+              .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field input:-ms-input-placeholder {
+                color: #fff; }
+          .header .form-outer-wrap .form-wrap .form-inner-wrap form button {
+            border: 0;
+            text-align: center;
+            width: 100%;
+            height: 68px;
+            border: 2px solid #f25c19;
+            background: transparent;
+            color: #f25c19;
+            font-size: 38px;
+            font-weight: 600;
+            text-transform: uppercase; }
+            .header .form-outer-wrap .form-wrap .form-inner-wrap form button:hover {
+              border: 0;
+              color: white; }
+        .header .form-outer-wrap .form-wrap .form-inner-wrap p {
+          margin: 0;
+          color: white;
+          font-size: 15px;
+          font-weight: 300;
+          line-height: 20px; }
+  .header .discount-wrap {
+    margin-bottom: 18px;
+    padding: 14px 0 18px 0;
+    background: -webkit-gradient(linear, left top, right top, from(transparent), to(rgba(0, 0, 0, 0.1)));
+    background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: -moz-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: -o-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.1) 100%);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+    .header .discount-wrap .discount {
+      max-width: 1018px;
+      width: 100%; }
+      .header .discount-wrap .discount p {
+        margin: 0;
+        color: #f25c19;
+        font-size: 33px;
+        font-weight: 600;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        -moz-transition: .5s;
+        transition: .5s;
+        -webkit-transform: scale(0.98);
+        -moz-transform: scale(0.98);
+        -ms-transform: scale(0.98);
+        -o-transform: scale(0.98);
+        transform: scale(0.98); }
+        .header .discount-wrap .discount p.active {
+          -webkit-transition: .5s;
+          -o-transition: .5s;
+          -moz-transition: .5s;
+          transition: .5s;
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -ms-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1); }
+  .header .tires-info-wrap {
+    overflow: hidden;
+    padding: 25px 0;
+    background: rgba(0, 0, 0, 0.5); }
+    .header .tires-info-wrap .tires-info {
+      max-width: 1090px;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .header .tires-info-wrap .tires-info .tires-info-item {
+        text-align: center; }
+        .header .tires-info-wrap .tires-info .tires-info-item:nth-child(1) > p {
+          max-width: 253px; }
+        .header .tires-info-wrap .tires-info .tires-info-item:nth-child(2) {
+          position: relative; }
+          .header .tires-info-wrap .tires-info .tires-info-item:nth-child(2):before {
+            content: '';
+            position: absolute;
+            top: -45px;
+            left: -25px;
+            height: 250px;
+            width: 6px;
+            background: white;
+            opacity: .1;
+            -webkit-transform: rotate(32deg);
+            -moz-transform: rotate(32deg);
+            -ms-transform: rotate(32deg);
+            -o-transform: rotate(32deg);
+            transform: rotate(32deg); }
+          .header .tires-info-wrap .tires-info .tires-info-item:nth-child(2):after {
+            content: '';
+            position: absolute;
+            top: -45px;
+            right: -50px;
+            height: 250px;
+            width: 6px;
+            background: white;
+            opacity: .1;
+            -webkit-transform: rotate(32deg);
+            -moz-transform: rotate(32deg);
+            -ms-transform: rotate(32deg);
+            -o-transform: rotate(32deg);
+            transform: rotate(32deg); }
+          .header .tires-info-wrap .tires-info .tires-info-item:nth-child(2) p {
+            max-width: 345px; }
+        .header .tires-info-wrap .tires-info .tires-info-item:nth-child(3) > p {
+          max-width: 274px; }
+        .header .tires-info-wrap .tires-info .tires-info-item .tires-info-pic {
+          position: relative;
+          height: 74px;
+          width: 74px;
+          margin: 0 auto 13px auto; }
+          .header .tires-info-wrap .tires-info .tires-info-item .tires-info-pic img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+        .header .tires-info-wrap .tires-info .tires-info-item p {
+          margin: 0 auto;
+          color: white;
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 22px; }
+
+.contacts {
+  padding: 10px 0 41px 0;
+  background: url("../images/contacts-bg.jpg"); }
+  .contacts h2 {
+    text-align: center;
+    margin: 0 0 15px 0;
+    color: white;
+    font-size: 59px;
+    font-weight: 400; }
+  .contacts .contacts-info-wrap {
+    margin-bottom: 21px;
+    padding: 15px 0 18px 0;
+    background: #f25c19; }
+    .contacts .contacts-info-wrap .contacts-info {
+      max-width: 985px;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .contacts .contacts-info-wrap .contacts-info .contacts-info-item {
+        text-align: center;
+        width: 310px; }
+        .contacts .contacts-info-wrap .contacts-info .contacts-info-item .contacts-info-pic {
+          margin: 0 auto 4px auto;
+          position: relative;
+          width: 74px;
+          height: 74px;
+          background: white;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%; }
+          .contacts .contacts-info-wrap .contacts-info .contacts-info-item .contacts-info-pic img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+          .contacts .contacts-info-wrap .contacts-info .contacts-info-item .contacts-info-pic:after {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            left: 5px;
+            top: 0;
+            width: 74px;
+            height: 74px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            background: #e62102; }
+        .contacts .contacts-info-wrap .contacts-info .contacts-info-item p {
+          margin: 0 0 17px 0;
+          color: white;
+          font-size: 20px;
+          line-height: 22px;
+          font-weight: 400; }
+          .contacts .contacts-info-wrap .contacts-info .contacts-info-item p strong {
+            display: block;
+            font-weight: 600; }
+        .contacts .contacts-info-wrap .contacts-info .contacts-info-item a {
+          display: block;
+          color: white;
+          font-weight: 700;
+          line-height: 25px;
+          font-size: 18px;
+          text-decoration: none;
+          -webkit-transition: all 300ms ease;
+          -o-transition: all 300ms ease;
+          -moz-transition: all 300ms ease;
+          transition: all 300ms ease; }
+          .contacts .contacts-info-wrap .contacts-info .contacts-info-item a img {
+            margin-right: 5px;
+            vertical-align: middle; }
+          .contacts .contacts-info-wrap .contacts-info .contacts-info-item a b {
+            vertical-align: text-bottom;
+            font-weight: 700;
+            font-size: 27px; }
+          .contacts .contacts-info-wrap .contacts-info .contacts-info-item a:hover {
+            opacity: .8; }
+        .contacts .contacts-info-wrap .contacts-info .contacts-info-item.contacts-info-item-center {
+          position: relative; }
+          .contacts .contacts-info-wrap .contacts-info .contacts-info-item.contacts-info-item-center:before {
+            content: '';
+            position: absolute;
+            top: 35px;
+            left: 0;
+            width: 1px;
+            height: 133px;
+            background: white; }
+          .contacts .contacts-info-wrap .contacts-info .contacts-info-item.contacts-info-item-center:after {
+            content: '';
+            position: absolute;
+            top: 35px;
+            right: 0;
+            width: 1px;
+            height: 133px;
+            background: white; }
+  .contacts .cities {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .contacts .cities .cities-left-wrap {
+      padding-top: 77px;
+      width: 882px; }
+      .contacts .cities .cities-left-wrap h5 {
+        margin: 0 0 61px 0;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 29px; }
+      .contacts .cities .cities-left-wrap .cities-left {
+        max-width: 864px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        .contacts .cities .cities-left-wrap .cities-left .cities-item {
+          width: 210px;
+          position: relative; }
+          .contacts .cities .cities-left-wrap .cities-left .cities-item:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 2px;
+            height: 189px;
+            background: url("../images/vertical-line.png") no-repeat; }
+          .contacts .cities .cities-left-wrap .cities-left .cities-item:last-child:after {
+            display: none; }
+          .contacts .cities .cities-left-wrap .cities-left .cities-item h6 {
+            margin: 0 0 24px 20px;
+            color: #f25c19;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 21px; }
+          .contacts .cities .cities-left-wrap .cities-left .cities-item a {
+            margin-bottom: 27px;
+            position: relative;
+            padding-left: 20px;
+            display: block;
+            color: white;
+            font-size: 18px;
+            font-weight: 300;
+            text-decoration: none;
+            -webkit-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+            -moz-transition: all 300ms ease;
+            transition: all 300ms ease; }
+            .contacts .cities .cities-left-wrap .cities-left .cities-item a:last-child {
+              margin-bottom: 0; }
+            .contacts .cities .cities-left-wrap .cities-left .cities-item a:before {
+              content: '';
+              position: absolute;
+              top: -2px;
+              left: 0;
+              height: 21px;
+              width: 15px;
+              background: url("../images/marker-icon.png") no-repeat; }
+            .contacts .cities .cities-left-wrap .cities-left .cities-item a:hover {
+              opacity: .8; }
+          .contacts .cities .cities-left-wrap .cities-left .cities-item .cities-item-row {
+            position: relative;
+            margin-bottom: 36px; }
+            .contacts .cities .cities-left-wrap .cities-left .cities-item .cities-item-row:after {
+              content: '';
+              position: absolute;
+              bottom: -20px;
+              left: 0;
+              right: 0;
+              margin: auto;
+              width: 146px;
+              height: 2px;
+              background: url("../images/horizont-line.png") no-repeat; }
+            .contacts .cities .cities-left-wrap .cities-left .cities-item .cities-item-row:last-of-type {
+              margin-bottom: 0; }
+    .contacts .cities .cities-right-wrap {
+      width: 279px; }
+      .contacts .cities .cities-right-wrap h4 {
+        text-align: center;
+        margin: 0 0 24px 0;
+        color: white;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px; }
+      .contacts .cities .cities-right-wrap form .form-field {
+        margin-bottom: 11px; }
+        .contacts .cities .cities-right-wrap form .form-field:last-of-type {
+          margin-bottom: 25px; }
+        .contacts .cities .cities-right-wrap form .form-field input {
+          padding-left: 8px;
+          width: 100%;
+          height: 39px;
+          border: 1px solid white;
+          color: white;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 29px;
+          background: transparent; }
+          .contacts .cities .cities-right-wrap form .form-field input.error {
+            border: 1px solid #ff4f00; }
+            .contacts .cities .cities-right-wrap form .form-field input.error::-webkit-input-placeholder {
+              color: #ff4f00; }
+            .contacts .cities .cities-right-wrap form .form-field input.error::-moz-placeholder {
+              color: #ff4f00; }
+            .contacts .cities .cities-right-wrap form .form-field input.error:-moz-placeholder {
+              color: #ff4f00; }
+            .contacts .cities .cities-right-wrap form .form-field input.error:-ms-input-placeholder {
+              color: #ff4f00; }
+          .contacts .cities .cities-right-wrap form .form-field input::-webkit-input-placeholder {
+            color: #fff; }
+          .contacts .cities .cities-right-wrap form .form-field input::-moz-placeholder {
+            color: #fff; }
+          .contacts .cities .cities-right-wrap form .form-field input:-moz-placeholder {
+            color: #fff; }
+          .contacts .cities .cities-right-wrap form .form-field input:-ms-input-placeholder {
+            color: #fff; }
+        .contacts .cities .cities-right-wrap form .form-field textarea {
+          padding-left: 8px;
+          width: 100%;
+          height: 91px;
+          border: 1px solid white;
+          background: transparent;
+          color: white;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 29px;
+          resize: none; }
+          .contacts .cities .cities-right-wrap form .form-field textarea.error {
+            border: 1px solid #ff4f00; }
+            .contacts .cities .cities-right-wrap form .form-field textarea.error::-webkit-input-placeholder {
+              color: #ff4f00; }
+            .contacts .cities .cities-right-wrap form .form-field textarea.error::-moz-placeholder {
+              color: #ff4f00; }
+            .contacts .cities .cities-right-wrap form .form-field textarea.error:-moz-placeholder {
+              color: #ff4f00; }
+            .contacts .cities .cities-right-wrap form .form-field textarea.error:-ms-input-placeholder {
+              color: #ff4f00; }
+          .contacts .cities .cities-right-wrap form .form-field textarea::-webkit-input-placeholder {
+            color: #fff; }
+          .contacts .cities .cities-right-wrap form .form-field textarea::-moz-placeholder {
+            color: #fff; }
+          .contacts .cities .cities-right-wrap form .form-field textarea:-moz-placeholder {
+            color: #fff; }
+          .contacts .cities .cities-right-wrap form .form-field textarea:-ms-input-placeholder {
+            color: #fff; }
+      .contacts .cities .cities-right-wrap form button {
+        width: 100%;
+        height: 50px;
+        border: 1px solid #f25c19;
+        color: #f25c19;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 29px;
+        background: transparent; }
+        .contacts .cities .cities-right-wrap form button:hover {
+          border: 0;
+          color: white; }

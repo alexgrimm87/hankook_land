@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- build:css -->
+
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/jquery.fancybox-transitions.css">
+    <link rel="stylesheet" href="css/formstyler.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- add new file here -->
+
+    <link rel="stylesheet" href="css/zdev_0_basic.css">
+    <link rel="stylesheet" href="css/zdev_2.css">
+    <link rel="stylesheet" href="css/zdev_2_adapt.css">
+    <link rel="stylesheet" href="css/zdev_7.css">
+    <link rel="stylesheet" href="css/zdev_7_adapt.css">
+    <!-- endbuild -->
+
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
+    <script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="global-wrapper">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="mbox">
+        <div class="header-logos">
+          <a href="index.html"><img src="images/hankook-logo.png" alt="logo"></a>
+          <a href="https://autoset.by/" target="_blank"><img src="images/auto-logo.png" alt="logo"></a>
+        </div>
+        <h2>Шины Hankook с доставкой по всей Беларуси</h2>
+        <div class="form-outer-wrap">
+          <div class="form-wrap">
+            <div class="form-inner-wrap">
+              <h3>Закажите квалифицированный подбор</h3>
+              <form class="order-form" action="ajax.php" method="post">
+                <div class="field-row">
+                  <div class="select-field">
+                    <span>Ширина</span>
+                    <select id="width" class="header-select">
+                      <option>195</option>
+                      <option>196</option>
+                      <option>197</option>
+                    </select>
+                  </div>
+                  <div class="select-field">
+                    <span>Профиль</span>
+                    <select id="profile" class="header-select">
+                      <option>65</option>
+                      <option>66</option>
+                      <option>67</option>
+                    </select>
+                  </div>
+                  <div class="select-field">
+                    <span>Диаметр</span>
+                    <select id="diameter" class="header-select">
+                      <option>R15</option>
+                      <option>R16</option>
+                      <option>R17</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-field">
+                  <input class="tel" type="tel" name="tel" placeholder="Телефон" required />
+                </div>
+                <button class="h-right" type="submit">Отправить</button>
+              </form>
+              <p>Наш специалист перезвонит вам в течение 15 минут и поможет подобрать подходящие шины, проконсультирует по доставке и ценам.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="discount-wrap">
+        <div class="discount">
+          <p>Скидки на летние модели шин - 10%</p>
+        </div>
+      </div>
+      <div class="tires-info-wrap">
+        <div class="tires-info mbox">
+          <div class="tires-info-item">
+            <div class="tires-info-pic">
+              <img src="images/tire-icon.png" alt="tire">
+            </div>
+            <p>Только высококачественные корейские шины без переплат.</p>
+          </div>
+          <div class="tires-info-item">
+            <div class="tires-info-pic">
+              <img src="images/quality-icon.png" alt="quality">
+            </div>
+            <p>Высочайшая оценка за торможение на мокром и сухом покрытии. 
+            <br>Корейское качество.</p>
+          </div>
+          <div class="tires-info-item">
+            <div class="tires-info-pic">
+              <img src="images/guarantee-icon.png" alt="medal">
+            </div>
+            <p>Гарантия
+            <br>подбора правильного размера шин.</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /HEADER -->
+
+    <!-- MAIN -->
+    <div class="main">
+        <!-- add partials here -->
+		<section class="wrapper-catalogue">
+			<div class="mbox">
+				<div class="catalogue-title">Каталог шин <span><img src="images/hankook-logo.png" alt=""></span></div>
+				<div class="wrap-tires">
+					<div class="tires-item">
+						<div class="item-name">Hankook Ventus V12 evo2 K120 205/55 R16 94W</div>
+						<div class="photo"><img src="images/tirepic.png" alt=""></div>
+						<div class="about">
+							<div class="desc">Сезонность:<span> Зимняя (без шипов)</span></div>
+							<div class="desc">Протектор/Вес: <span>9 мм / 10,5 кг</span></div>
+							<div class="desc">Производство: <span>Россия</span></div>
+							<div class="desc">Класс модели: <span>А (Премиум)</span></div>
+							<div class="btn"><a href="#params" class="size-btn slit">подобрать размер</a></div>
+						</div>
+					</div>
+					<div class="tires-item">
+						<div class="item-name">Hankook Ventus V12 evo2 K120 205/55 R16 94W</div>
+						<div class="photo"><img src="images/tirepic.png" alt=""></div>
+						<div class="about">
+							<div class="desc">Сезонность:<span> Зимняя (без шипов)</span></div>
+							<div class="desc">Протектор/Вес: <span>9 мм / 10,5 кг</span></div>
+							<div class="desc">Производство: <span>Россия</span></div>
+							<div class="desc">Класс модели: <span>А (Премиум)</span></div>
+							<div class="btn"><a href="#params" class="size-btn slit">подобрать размер</a></div>
+						</div>
+					</div>
+					<div class="tires-item">
+						<div class="item-name">Hankook Ventus V12 evo2 K120 205/55 R16 94W</div>
+						<div class="photo"><img src="images/tirepic.png" alt=""></div>
+						<div class="about">
+							<div class="desc">Сезонность:<span> Зимняя (без шипов)</span></div>
+							<div class="desc">Протектор/Вес: <span>9 мм / 10,5 кг</span></div>
+							<div class="desc">Производство: <span>Россия</span></div>
+							<div class="desc">Класс модели: <span>А (Премиум)</span></div>
+							<div class="btn"><a href="#params" class="size-btn slit">подобрать размер</a></div>
+						</div>
+					</div>
+					<div class="tires-item">
+						<div class="item-name">Hankook Ventus V12 evo2 K120 205/55 R16 94W</div>
+						<div class="photo"><img src="images/tirepic.png" alt=""></div>
+						<div class="about">
+							<div class="desc">Сезонность:<span> Зимняя (без шипов)</span></div>
+							<div class="desc">Протектор/Вес: <span>9 мм / 10,5 кг</span></div>
+							<div class="desc">Производство: <span>Россия</span></div>
+							<div class="desc">Класс модели: <span>А (Премиум)</span></div>
+							<div class="btn"><a href="#params" class="size-btn slit">подобрать размер</a></div>
+						</div>
+					</div>
+					<div class="tires-item">
+						<div class="item-name">Hankook Ventus V12 evo2 K120 205/55 R16 94W</div>
+						<div class="photo"><img src="images/tirepic.png" alt=""></div>
+						<div class="about">
+							<div class="desc">Сезонность:<span> Зимняя (без шипов)</span></div>
+							<div class="desc">Протектор/Вес: <span>9 мм / 10,5 кг</span></div>
+							<div class="desc">Производство: <span>Россия</span></div>
+							<div class="desc">Класс модели: <span>А (Премиум)</span></div>
+							<div class="btn"><a href="#params" class="size-btn slit">подобрать размер</a></div>
+						</div>
+					</div>
+					<div class="tires-item">
+						<div class="item-name">Hankook Ventus V12 evo2 K120 205/55 R16 94W</div>
+						<div class="photo"><img src="images/tirepic.png" alt=""></div>
+						<div class="about">
+							<div class="desc">Сезонность:<span> Зимняя (без шипов)</span></div>
+							<div class="desc">Протектор/Вес: <span>9 мм / 10,5 кг</span></div>
+							<div class="desc">Производство: <span>Россия</span></div>
+							<div class="desc">Класс модели: <span>А (Премиум)</span></div>
+							<div class="btn"><a href="#params" class="size-btn slit">подобрать размер</a></div>
+						</div>
+					</div>
+					<div class="tires-item">
+						<div class="item-name">Hankook Ventus V12 evo2 K120 205/55 R16 94W</div>
+						<div class="photo"><img src="images/tirepic.png" alt=""></div>
+						<div class="about">
+							<div class="desc">Сезонность:<span> Зимняя (без шипов)</span></div>
+							<div class="desc">Протектор/Вес: <span>9 мм / 10,5 кг</span></div>
+							<div class="desc">Производство: <span>Россия</span></div>
+							<div class="desc">Класс модели: <span>А (Премиум)</span></div>
+							<div class="btn"><a href="#params" class="size-btn slit">подобрать размер</a></div>
+						</div>
+					</div>
+					<div class="tires-item">
+						<div class="item-name">Hankook Ventus V12 evo2 K120 205/55 R16 94W</div>
+						<div class="photo"><img src="images/tirepic.png" alt=""></div>
+						<div class="about">
+							<div class="desc">Сезонность:<span> Зимняя (без шипов)</span></div>
+							<div class="desc">Протектор/Вес: <span>9 мм / 10,5 кг</span></div>
+							<div class="desc">Производство: <span>Россия</span></div>
+							<div class="desc">Класс модели: <span>А (Премиум)</span></div>
+							<div class="btn"><a href="#params" class="size-btn slit">подобрать размер</a></div>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="see-more">показать еще</a>
+			</div>
+		</section>
+		<section class="sale">
+			<div class="txt">При покупке любых шин действует скидка на шиномонтаж в нашем автоцентре.</div>
+		</section>
+
+		<section class="wrap-buy">
+			<div class="advantages">
+				<div class="plus">
+					<img src="images/thumb.png" alt="">
+					<div class="desc">Гарантия 2 года</div>
+				</div>
+				<div class="plus">
+					<img src="images/post.png" alt="">
+					<div class="desc">Бесплатная доставка</div>
+				</div>
+				<div class="plus">
+					<img src="images/renew.png" alt="">
+					<div class="desc">14 дней на возврат</div>
+				</div>
+			</div>
+			<div class="mbox">
+				<div class="buy-title">Как купить шины <span><img src="images/logo2.png" alt=""></span></div>
+				<div class="wrap-steps">
+					<div class="step1">
+						<div class="wrap-num">
+							<div class="number">1</div>
+							<div class="step-desc">
+								<p>Оставьте заявку на подбор шин или позвоните по одному из номеров</p>
+								<a href="tel:+375297777777"><span><img src="images/velcom.png" alt=""></span>+375 29 777 77 77</a>
+								<a href="tel:+375297777777"><span><img src="images/mts.png" alt=""></span>+375 29 777 77 77</a>
+							</div>
+						</div>
+						<a href="#params" class="send h-right slit">Заявка на подбор шин</a>
+					</div>
+					<div class="step2">
+						<div class="wrap-num">
+							<div class="number">2</div>
+							<div class="step-desc">
+								<p>Приезжайте в один из трех магазинов в Минске или в любой областной центр Беларуси или закажите доставку домой.</p>
+							</div>
+						</div>
+						<a href="#cities" class="adresses"><span><img src="images/position.png" alt=""></span>адреса магазинов</a>
+					</div>
+					<div class="step3">
+						<div class="wrap-num">
+							<div class="number">3</div>
+							<div class="step-desc">
+								<p>Оплачивайте заказ и получайте новые высококачественные шины.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contacts">
+		  <h2>Контакты</h2>
+		  <div class="contacts-info-wrap">
+		    <div class="contacts-info mbox">
+		      <div class="contacts-info-item">
+		        <div class="contacts-info-pic">
+		          <img src="images/car-icon.png" alt="car">
+		        </div>
+		        <p>Консультация <strong>по легковому сегменту</strong></p>
+		        <a href="tel:375296113232"><img src="images/velcom.png" alt="velcom">+375 (29) <b>611-32-32</b></a>
+		        <a href="tel:375336113232"><img src="images/mts.png" alt="mts">+375 (33) <b>611-32-32</b></a>
+		      </div>
+		      <div class="contacts-info-item contacts-info-item-center">
+		        <div class="contacts-info-pic">
+		          <img src="images/trucker-icon.png" alt="trucker">
+		        </div>
+		        <p>Консультация <strong>по грузовому сегменту</strong></p>
+		        <a href="tel:375445300600"><img src="images/velcom.png" alt="velcom">+375 (44) <b>5-300-600</b></a>
+		      </div>
+		      <div class="contacts-info-item">
+		        <div class="contacts-info-pic">
+		          <img src="images/hotline-icon.png" alt="hotline">
+		        </div>
+		        <p>Горячая линия <strong>отзывов и предложений</strong></p>
+		        <a href="tel:375445000205"><img src="images/velcom.png" alt="velcom">+375 (44) <b>5-000-205</b></a>
+		      </div>
+		    </div>
+		  </div>
+		  <div id="cities" class="cities mbox">
+		    <div class="cities-left-wrap">
+		      <h5>Компания Автосеть представлена торгово-сервисными пунктами в городах:</h5>
+		      <div class="cities-left">
+		        <div class="cities-item">
+		          <h6>Минск:</h6>
+		          <a href="#map" class="flip" data-lat=53.892887 data-lng=27.647476>ул. Радиальная, 40/2</a>
+		          <a href="#map" class="flip" data-lat=53.874978 data-lng=27.498240>ул. Уманская, 54/1</a>
+		          <a href="#map" class="flip" data-lat=53.851920 data-lng=27.676405>ул. Промышленная, 2/1</a>
+		        </div>
+		        <div class="cities-item">
+		          <div class="cities-item-row">
+		            <h6>Брест:</h6>
+		            <a href="#map" class="flip" data-lat=52.103287 data-lng=23.736909>ул. Янки Купалы, 19</a>
+		          </div>
+		          <div class="cities-item-row">
+		            <h6>Витебск:</h6>
+		            <a href="#map" class="flip" data-lat=55.177250 data-lng=30.231007>пр. Московский, 35</a>
+		          </div>
+		        </div>
+		        <div class="cities-item">
+		          <div class="cities-item-row">
+		            <h6>Гомель:</h6>
+		            <a href="#map" class="flip" data-lat=52.427485 data-lng=30.909152>ул. Барыкина, 321а</a>
+		          </div>
+		          <div class="cities-item-row">
+		            <h6>Могилев:</h6>
+		            <a href="#map" class="flip" data-lat=53.907464 data-lng=30.296811>ул. Строителей, 21</a>
+		          </div>
+		        </div>
+		        <div class="cities-item">
+		          <div class="cities-item-row">
+		            <h6>Гродно:</h6>
+		            <a href="#map" class="flip" data-lat=53.658296 data-lng=23.829751>ул. Победы, 17</a>
+		          </div>
+		          <div class="cities-item-row">
+		            <h6>Бобруйск:</h6>
+		            <a href="#map" class="flip" data-lat=53.163713 data-lng=29.197941>ул. Ульяновская, 40</a>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="cities-right-wrap">
+		      <h4>Задать вопрос</h4>
+		      <form class="contacts-form" action="ajax-programer.php" method="post">
+		        <div class="form-field">
+		          <input type="text" name="contact_name" placeholder="Имя" required />
+		        </div>
+		        <div class="form-field">
+		          <input class="tel" type="tel" name="contact_tel" placeholder="Телефон" required />
+		        </div>
+		        <div class="form-field">
+		          <textarea name="contact_question" placeholder="Вопрос" required></textarea>
+		        </div>
+		        <button class="h-right" type="submit">Отправить</button>
+		      </form>
+		    </div>
+		  </div>
+		</section>
+    </div>
+    <!-- /MAIN -->
+
+    <div class="hidden-block">
+    
+        <div class="parameters" id="params">
+            <div class="md-content">
+                <div class="wrap-param">
+                    <div class="pic"><img src="images/tire.png" alt=""></div>
+                    <div class="right-param">
+                        <div class="param-title">Подбор по параметрам</div>
+                        <form class="form-param" action="ajax.php" method="post">
+                            <div class="form-row">
+                                <div class="param-item">
+                                    <span>Ширина</span>
+                                    <select class="width">
+                                        <option>195</option>
+                                        <option>215</option>
+                                        <option>230</option>
+                                    </select>
+                                </div>
+                                <div class="param-item">
+                                    <span>Профиль</span>
+                                    <select class="width">
+                                        <option>65</option>
+                                        <option>75</option>
+                                        <option>85</option>
+                                    </select>
+                                </div>
+                                <div class="param-item">
+                                    <span>Диаметр</span>
+                                    <select class="width">
+                                        <option>R15</option>
+                                        <option>R20</option>
+                                        <option>R25</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input class="tel telephone" type="tel" name="tel" placeholder="Телефон" required />
+                            <input type="submit" class="submit" value="Подобрать">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="map">
+            <div id="map-popup"></div>
+        </div>
+    
+        <div id="call_success">
+            <div class="call-success">
+                 <div class="call_success">
+                    <div class="call-title">Спасибо! <br> Ваша заявка принята.</div>
+                    <div class="call-subtitle">Наш специалист перезвонит вам в течение 15 минут.</div>
+                 </div>
+            </div>
+        </div>
+    
+        <div id="call-popup">
+            <form action="ajax.php" name="" class="contact-form">
+                <div class="contact-form-title">
+                    <h5>Lorem ipsum dolor.</h5>
+                </div>
+                <div class="contact-form-row cfix">
+                    <div class="contact-form-item">
+                        <div class="contact-form-item-input form_row">
+                            <div class="form_input">
+                                <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-item">
+                        <div class="contact-form-item-input form_row">
+                            <div class="form_input">
+                                <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-row cfix">
+                    <div class="contact-form-item">
+                        <button type="submit" class="contact-submit">
+                            <span>Отправить заявку</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer_placeholder"></div>
+    <footer class="footer">
+    	<div class="mbox wrap-footer">
+    		<div class="about-company about-right">
+    			<div class="company">
+    				<p>СООО "Автосеть" Юр. адрес: РБ, 224023, г. Брест. ул. Московская, 275 А</p>
+    				<p>УНП 190513391 В торговом реестре с 30 июня 2014г.</p>
+    				<p>Брестский горисполком.</p>
+    				<p>Свидетельство о регистрации № 190513391 выдано 07.06.2012г.</p>
+    			</div>
+    			<div class="working-hours">
+    				<p>Заказы по электронной почте и через сайт принимаются круглосуточно.</p>
+    				<p>Эл.почта <a href="mailto:order@autoset.by">order@autoset.by</a></p> 
+    				<p>Режим работы и обработки заказов: <br> 08<b>00</b>  -  20<b>00</b> (пн-сб),  09<b>00</b>  -  18<b>00</b>  (вс)</p>
+    			</div>
+    		</div>
+    		<div class="logo">
+    			<p>Создание сайта</p>
+    			<a href="#"><img src="images/logotype.png" alt=""></a>
+    		</div>
+    	</div>
+    </footer>
+    <!-- FOOTER -->
+    
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/validate_script.js" ></script>
+    
+    <!-- build:js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTCXUfZWzr09vJrcv9NlZcoftvC6a1xw8"></script> 
+    <script type="text/javascript" src="js/plagins/device.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.fancybox.pack.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.fancybox-transitions.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.formstyler.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.validate.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/maskInput.js" ></script>
+    <script type="text/javascript" src="js/plagins/slick.js" ></script>
+    
+    <script type="text/javascript" src="js/basic_scripts.js" ></script>
+    <script type="text/javascript" src="js/develop/script.js" ></script>
+    <!-- endbuild -->
+    
+    <!-- /SCRIPTS -->
+
+</div>
+</body>
+</html>

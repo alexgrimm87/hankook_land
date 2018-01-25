@@ -1,0 +1,88 @@
+<div class="hidden-block">
+
+    <div class="parameters" id="params">
+        <div class="md-content">
+            <div class="wrap-param">
+                <div class="pic"><img src="images/tire.png" alt=""></div>
+                <div class="right-param">
+                    <div class="param-title">Подбор по параметрам</div>
+                    <form class="form-param" action="ajax.php" method="post">
+                        <div class="form-row">
+                            <div class="param-item">
+                                <span>Ширина</span>
+                                <select class="width">
+                                    <option>195</option>
+                                    <option>215</option>
+                                    <option>230</option>
+                                </select>
+                            </div>
+                            <div class="param-item">
+                                <span>Профиль</span>
+                                <select class="width">
+                                    <option>65</option>
+                                    <option>75</option>
+                                    <option>85</option>
+                                </select>
+                            </div>
+                            <div class="param-item">
+                                <span>Диаметр</span>
+                                <select class="width">
+                                    <option>R15</option>
+                                    <option>R20</option>
+                                    <option>R25</option>
+                                </select>
+                            </div>
+                        </div>
+                        <input class="tel telephone" type="tel" name="tel" placeholder="Телефон" required />
+                        <input type="submit" class="submit" value="Подобрать">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="map">
+        <div id="map-popup"></div>
+    </div>
+
+    <div id="call_success">
+        <div class="call-success">
+             <div class="call_success">
+                <div class="call-title">Спасибо! <br> Ваша заявка принята.</div>
+                <div class="call-subtitle">Наш специалист перезвонит вам в течение 15 минут.</div>
+             </div>
+        </div>
+    </div>
+
+    <div id="call-popup">
+        <form action="ajax.php" name="" class="contact-form">
+            <div class="contact-form-title">
+                <h5>Lorem ipsum dolor.</h5>
+            </div>
+            <div class="contact-form-row cfix">
+                <div class="contact-form-item">
+                    <div class="contact-form-item-input form_row">
+                        <div class="form_input">
+                            <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-item">
+                    <div class="contact-form-item-input form_row">
+                        <div class="form_input">
+                            <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-row cfix">
+                <div class="contact-form-item">
+                    <button type="submit" class="contact-submit">
+                        <span>Отправить заявку</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>

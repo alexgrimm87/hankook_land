@@ -1,0 +1,87 @@
+<section class="contacts">
+  <h2>Контакты</h2>
+  <div class="contacts-info-wrap">
+    <div class="contacts-info mbox">
+      <div class="contacts-info-item">
+        <div class="contacts-info-pic">
+          <img src="images/car-icon.png" alt="car">
+        </div>
+        <p>Консультация <strong>по легковому сегменту</strong></p>
+        <a href="tel:375296113232"><img src="images/velcom.png" alt="velcom">+375 (29) <b>611-32-32</b></a>
+        <a href="tel:375336113232"><img src="images/mts.png" alt="mts">+375 (33) <b>611-32-32</b></a>
+      </div>
+      <div class="contacts-info-item contacts-info-item-center">
+        <div class="contacts-info-pic">
+          <img src="images/trucker-icon.png" alt="trucker">
+        </div>
+        <p>Консультация <strong>по грузовому сегменту</strong></p>
+        <a href="tel:375445300600"><img src="images/velcom.png" alt="velcom">+375 (44) <b>5-300-600</b></a>
+      </div>
+      <div class="contacts-info-item">
+        <div class="contacts-info-pic">
+          <img src="images/hotline-icon.png" alt="hotline">
+        </div>
+        <p>Горячая линия <strong>отзывов и предложений</strong></p>
+        <a href="tel:375445000205"><img src="images/velcom.png" alt="velcom">+375 (44) <b>5-000-205</b></a>
+      </div>
+    </div>
+  </div>
+  <div id="cities" class="cities mbox">
+    <div class="cities-left-wrap">
+      <h5>Компания Автосеть представлена торгово-сервисными пунктами в городах:</h5>
+      <div class="cities-left">
+        <div class="cities-item">
+          <h6>Минск:</h6>
+          <a href="#map" class="flip" data-lat=53.892887 data-lng=27.647476>ул. Радиальная, 40/2</a>
+          <a href="#map" class="flip" data-lat=53.874978 data-lng=27.498240>ул. Уманская, 54/1</a>
+          <a href="#map" class="flip" data-lat=53.851920 data-lng=27.676405>ул. Промышленная, 2/1</a>
+        </div>
+        <div class="cities-item">
+          <div class="cities-item-row">
+            <h6>Брест:</h6>
+            <a href="#map" class="flip" data-lat=52.103287 data-lng=23.736909>ул. Янки Купалы, 19</a>
+          </div>
+          <div class="cities-item-row">
+            <h6>Витебск:</h6>
+            <a href="#map" class="flip" data-lat=55.177250 data-lng=30.231007>пр. Московский, 35</a>
+          </div>
+        </div>
+        <div class="cities-item">
+          <div class="cities-item-row">
+            <h6>Гомель:</h6>
+            <a href="#map" class="flip" data-lat=52.427485 data-lng=30.909152>ул. Барыкина, 321а</a>
+          </div>
+          <div class="cities-item-row">
+            <h6>Могилев:</h6>
+            <a href="#map" class="flip" data-lat=53.907464 data-lng=30.296811>ул. Строителей, 21</a>
+          </div>
+        </div>
+        <div class="cities-item">
+          <div class="cities-item-row">
+            <h6>Гродно:</h6>
+            <a href="#map" class="flip" data-lat=53.658296 data-lng=23.829751>ул. Победы, 17</a>
+          </div>
+          <div class="cities-item-row">
+            <h6>Бобруйск:</h6>
+            <a href="#map" class="flip" data-lat=53.163713 data-lng=29.197941>ул. Ульяновская, 40</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cities-right-wrap">
+      <h4>Задать вопрос</h4>
+      <form class="contacts-form" action="ajax-programer.php" method="post">
+        <div class="form-field">
+          <input type="text" name="contact_name" placeholder="Имя" required />
+        </div>
+        <div class="form-field">
+          <input class="tel" type="tel" name="contact_tel" placeholder="Телефон" required />
+        </div>
+        <div class="form-field">
+          <textarea name="contact_question" placeholder="Вопрос" required></textarea>
+        </div>
+        <button class="h-right" type="submit">Отправить</button>
+      </form>
+    </div>
+  </div>
+</section>

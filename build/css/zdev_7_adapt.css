@@ -1,0 +1,326 @@
+@media screen and (max-width: 1440px) {
+  .header .discount-wrap .discount {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; } }
+
+@media screen and (max-width: 1152px) {
+  .contacts .cities .cities-left-wrap {
+    width: 100%;
+    padding-top: 0px; }
+    .contacts .cities .cities-left-wrap h5 {
+      max-width: 566px;
+      text-align: center;
+      margin: 0 auto 15px auto; }
+    .contacts .cities .cities-left-wrap .cities-left {
+      max-width: 600px;
+      margin: 0 auto;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      .contacts .cities .cities-left-wrap .cities-left .cities-item {
+        margin-bottom: 40px;
+        width: 50%; }
+        .contacts .cities .cities-left-wrap .cities-left .cities-item:nth-child(3), .contacts .cities .cities-left-wrap .cities-left .cities-item:nth-child(4) {
+          margin-bottom: 0; }
+        .contacts .cities .cities-left-wrap .cities-left .cities-item:after {
+          right: 35px; }
+        .contacts .cities .cities-left-wrap .cities-left .cities-item:nth-child(2):after {
+          display: none; }
+        .contacts .cities .cities-left-wrap .cities-left .cities-item .cities-item-row {
+          max-width: 183px; } }
+
+@media screen and (max-width: 1086px) {
+  .header h2 {
+    line-height: 55px; } }
+
+@media screen and (max-width: 1024px) {
+  .header .tires-info-wrap .tires-info .tires-info-item:nth-child(2):before, .header .tires-info-wrap .tires-info .tires-info-item:nth-child(2):after {
+    display: none; } }
+
+@media screen and (max-width: 900px) {
+  .header .tires-info-wrap .tires-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .header .tires-info-wrap .tires-info .tires-info-item {
+      margin-bottom: 15px; }
+      .header .tires-info-wrap .tires-info .tires-info-item:last-child {
+        margin-bottom: 0; } }
+
+@media screen and (max-width: 830px) {
+  .header .header-logos {
+    margin-bottom: 60px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .header .header-logos a {
+      margin-bottom: 15px; }
+      .header .header-logos a:last-child {
+        margin-bottom: 0; } }
+
+@media screen and (max-width: 800px) {
+  .contacts .contacts-info-wrap .contacts-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .contacts .contacts-info-wrap .contacts-info .contacts-info-item {
+      margin-bottom: 20px; }
+      .contacts .contacts-info-wrap .contacts-info .contacts-info-item.contacts-info-item-center:before, .contacts .contacts-info-wrap .contacts-info .contacts-info-item.contacts-info-item-center:after {
+        display: none; }
+      .contacts .contacts-info-wrap .contacts-info .contacts-info-item:last-child {
+        margin-bottom: 0; } }
+
+@media screen and (max-width: 767px) {
+  .contacts .cities {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .contacts .cities .cities-left-wrap .cities-left {
+      margin-bottom: 40px;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      .contacts .cities .cities-left-wrap .cities-left .cities-item {
+        width: 34%; }
+        .contacts .cities .cities-left-wrap .cities-left .cities-item:after {
+          right: -45px; } }
+
+@media screen and (max-width: 720px) {
+  .header .form-outer-wrap .form-wrap .form-inner-wrap {
+    padding: 20px 10px 14px 10px; }
+    .header .form-outer-wrap .form-wrap .form-inner-wrap h3 {
+      padding: 0 5px;
+      margin-bottom: 20px;
+      font-size: 25px;
+      line-height: 40px; } }
+
+@media screen and (max-width: 666px) {
+  .header h2 {
+    font-size: 40px;
+    line-height: 50px; } }
+
+@media screen and (max-width: 613px) {
+  .header .discount-wrap .discount p {
+    text-align: center;
+    font-size: 32px; } }
+
+@media screen and (max-width: 576px) {
+  .contacts .cities .cities-left-wrap .cities-left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .contacts .cities .cities-left-wrap .cities-left .cities-item {
+      width: 45%; }
+      .contacts .cities .cities-left-wrap .cities-left .cities-item:after {
+        display: none; }
+      .contacts .cities .cities-left-wrap .cities-left .cities-item:first-child:before {
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 146px;
+        height: 2px;
+        background: url("../images/horizont-line.png") no-repeat; }
+      .contacts .cities .cities-left-wrap .cities-left .cities-item:nth-child(3), .contacts .cities .cities-left-wrap .cities-left .cities-item:nth-child(4) {
+        margin-bottom: 40px; }
+      .contacts .cities .cities-left-wrap .cities-left .cities-item h6 {
+        margin-left: 0;
+        text-align: center; } }
+
+@media screen and (max-width: 512px) {
+  .header {
+    padding-top: 8px; }
+    .header .header-logos {
+      margin-bottom: 10px; }
+      .header .header-logos a:first-child {
+        width: 85%; }
+    .header h2 {
+      margin: 0 auto 15px auto;
+      max-width: 275px;
+      font-size: 29px;
+      line-height: 32px; }
+    .header .form-outer-wrap {
+      margin-bottom: 0; }
+      .header .form-outer-wrap .form-wrap .form-inner-wrap {
+        padding-top: 9px;
+        padding-bottom: 8px; }
+        .header .form-outer-wrap .form-wrap .form-inner-wrap h3 {
+          margin-bottom: 22px;
+          font-size: 19px;
+          line-height: 26px; }
+        .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row {
+          margin-bottom: 16px; }
+          .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field {
+            margin-bottom: 12px;
+            max-width: 225px; }
+            .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field .header-select .jq-selectbox__select {
+              width: 140px; }
+        .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field {
+          margin-bottom: 18px; }
+          .header .form-outer-wrap .form-wrap .form-inner-wrap form .form-field input {
+            height: 47px; }
+        .header .form-outer-wrap .form-wrap .form-inner-wrap form button {
+          height: 55px;
+          font-size: 25px; }
+        .header .form-outer-wrap .form-wrap .form-inner-wrap p {
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 16px; }
+    .header .discount-wrap {
+      margin-bottom: 0; }
+      .header .discount-wrap .discount {
+        padding: 0; }
+        .header .discount-wrap .discount p {
+          font-size: 22px;
+          font-weight: 600;
+          line-height: 33px; }
+    .header .tires-info-wrap {
+      padding-top: 6px;
+      padding-bottom: 9px;
+      background: black; }
+      .header .tires-info-wrap .tires-info .tires-info-item {
+        margin-bottom: 55px; }
+        .header .tires-info-wrap .tires-info .tires-info-item .tires-info-pic {
+          margin-bottom: 7px;
+          width: 64px;
+          height: 64px; }
+        .header .tires-info-wrap .tires-info .tires-info-item p {
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 22px; }
+  .contacts h2 {
+    font-size: 45px;
+    line-height: 55px; }
+  .contacts .contacts-info-wrap {
+    padding-bottom: 43px; }
+    .contacts .contacts-info-wrap .contacts-info .contacts-info-item {
+      margin-bottom: 49px; }
+  .contacts .cities .cities-left-wrap h5 {
+    font-size: 20px;
+    line-height: 29px; }
+  .contacts .cities .cities-left-wrap .cities-left {
+    max-width: 320px;
+    margin: 0 auto; }
+    .contacts .cities .cities-left-wrap .cities-left .cities-item {
+      margin-bottom: 20px;
+      width: 90%; }
+      .contacts .cities .cities-left-wrap .cities-left .cities-item:nth-child(3), .contacts .cities .cities-left-wrap .cities-left .cities-item:nth-child(4) {
+        margin-bottom: 20px; }
+      .contacts .cities .cities-left-wrap .cities-left .cities-item:first-child:before {
+        bottom: -15px;
+        background: url("../images/horizont-line-mob.png") no-repeat;
+        width: 100%; }
+      .contacts .cities .cities-left-wrap .cities-left .cities-item h6 {
+        margin-bottom: 13px;
+        font-size: 21px;
+        margin-left: 16px;
+        text-align: left; }
+      .contacts .cities .cities-left-wrap .cities-left .cities-item a {
+        margin-bottom: 12px; }
+      .contacts .cities .cities-left-wrap .cities-left .cities-item .cities-item-row {
+        max-width: 100%;
+        margin-bottom: 21px; }
+        .contacts .cities .cities-left-wrap .cities-left .cities-item .cities-item-row:after {
+          bottom: -15px;
+          background: url("../images/horizont-line-mob.png") no-repeat;
+          width: 100%; } }
+
+@media screen and (max-width: 479px) {
+  .header .form-outer-wrap .form-wrap .form-inner-wrap form {
+    margin-bottom: 19px; }
+    .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field select {
+      width: 125px; }
+    .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field .header-select .jq-selectbox__select {
+      width: 125px; } }
+
+@media screen and (max-width: 435px) {
+  .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field select {
+    width: 110px; }
+  .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field .header-select .jq-selectbox__select {
+    width: 110px; } }
+
+@media screen and (max-width: 384px) {
+  .header .form-outer-wrap .form-wrap .form-inner-wrap h3 {
+    font-size: 21px;
+    line-height: 30px; }
+  .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field {
+      margin-bottom: 10px;
+      max-width: 200px;
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field:last-child {
+        margin-bottom: 0; }
+      .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field span {
+        display: inline-block; }
+      .header .form-outer-wrap .form-wrap .form-inner-wrap form .field-row .select-field .header-select .jq-selectbox__select {
+        width: 110px; } }

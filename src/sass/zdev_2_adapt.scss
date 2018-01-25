@@ -1,0 +1,237 @@
+@media screen and (max-width: 1239px){
+  .wrap-buy .advantages .plus:nth-child(2):before, .wrap-buy .advantages .plus:nth-child(2):after{
+    display: none;
+  }
+}
+@media screen and (max-width: 1140px){
+  .wrap-buy .wrap-steps .step1:after, .wrap-buy .wrap-steps .step2:after{
+    width: 140px;
+  }
+}
+@media screen and (max-width: 1120px){
+  .wrapper-catalogue .wrap-tires{
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 992px){
+  .wrap-buy .wrap-steps{
+    height: auto;
+  }
+  .wrap-buy .wrap-steps .step1, .wrap-buy .wrap-steps .step2, .wrap-buy .wrap-steps .step3{
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    transform: translateX(0%);
+    padding-bottom: 40px;
+  }
+  .wrap-buy .wrap-steps .step1:after, .wrap-buy .wrap-steps .step2:after {
+      top: 103%;
+      right: 50%;
+      left: 50%;
+      transform: translate(-50%, -150%) rotate(90deg);
+      width: 36px;
+      height: 11px;
+      background: url(../images/arr.png) no-repeat center right;
+  }
+}
+@media screen and (max-width: 940px){
+  .footer .wrap-footer .logo{
+    text-align: center;
+    width: 100%;
+    padding-top: 23px;
+  }
+  .footer .wrap-footer{
+    flex-direction: column;
+  }
+  .footer .wrap-footer .about-company{
+    padding-left: 0;
+    width: 100%;
+  }
+  .footer .wrap-footer .logo a{
+    display: block;
+    margin-top: 10px;
+  }
+  .fancybox-close{
+    top: -50px;
+    right: 0;
+  }
+}
+@media screen and (max-width: 767px){
+  .wrapper-catalogue .catalogue-title span img , .wrap-buy .buy-title span img{
+      width: 50%;
+  }
+  .wrapper-catalogue .catalogue-title{
+    font-size: 55px;
+  }
+  .sale .txt{
+    font-size: 19px;
+  }
+  .footer .wrap-footer .about-company.about-right{
+    width: 100%;
+  }
+  .footer .wrap-footer .about-company.about-right{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .footer .wrap-footer .about-company.about-right .company, .footer .wrap-footer .about-company.about-right .working-hours{
+    width: 100%;
+  }
+  .footer .wrap-footer .about-company.about-right .working-hours{
+    padding-bottom: 23px;
+  }
+}
+@media screen and (max-width: 730px){
+  .parameters .md-content .wrap-param .right-param {
+    width: 100%;
+    padding: 17px 10px 25px 10px;
+  }
+  .parameters .md-content {
+    width: 100%;
+  }
+  .parameters .md-content .wrap-param .pic{
+    display: none;
+  }
+}
+@media screen and (max-width: 666px){
+  .wrapper-catalogue .catalogue-title, .wrap-buy .buy-title{
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 500px){
+  .footer .wrap-footer .about-company.about-right{
+    text-align: left;
+  }
+  .parameters .md-content .wrap-param .right-param .param-title{
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 479px){
+  .wrapper-catalogue .wrap-tires .tires-item{
+    width: 80%;
+  }
+  .sale .txt{
+    font-size: 17px;
+  }
+  .wrap-buy .advantages .plus{
+    padding-bottom: 20px;
+  }
+  .wrapper-catalogue .catalogue-title span img, .wrap-buy .buy-title span img {
+      width: 86%;
+      padding-top: 12px;
+  }
+  .wrap-buy .wrap-steps .step1 .wrap-num .step-desc p, .wrap-buy .wrap-steps .step2 .wrap-num .step-desc p, .wrap-buy .wrap-steps .step3 .wrap-num .step-desc p {
+      font-size: 15px;
+      line-height: 19px;
+      padding-bottom: 5px;
+  }
+  .wrap-buy .wrap-steps .step1 .wrap-num .step-desc a, .wrap-buy .wrap-steps .step2 .wrap-num .step-desc a, .wrap-buy .wrap-steps .step3 .wrap-num .step-desc a{
+    font-size: 15px;
+  }
+  .wrap-buy .wrap-steps .step1 .wrap-num .number, .wrap-buy .wrap-steps .step2 .wrap-num .number, .wrap-buy .wrap-steps .step3 .wrap-num .number{
+    font-size: 100px;
+  }
+  .wrap-buy .wrap-steps .step1 .send, .wrap-buy .wrap-steps .step2 .send, .wrap-buy .wrap-steps .step3 .send {
+      font-size: 20px;
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+      display: block;
+      padding: 14px 18px;
+      margin-left: auto;
+      position: relative;
+  }
+  .wrapper-catalogue .wrap-tires .tires-item:nth-child(1n+7) {
+    display: none;
+  }
+  .wrapper-catalogue .see-more {
+    display: block;
+  }
+  .wrapper-catalogue{
+    padding: 14px 0;
+  }
+  .wrap-buy .buy-title{
+    font-size: 30px;
+  }
+  .footer .wrap-footer .about-company p{
+    line-height: 20px;
+  }
+  .footer .wrap-footer .about-company p a{
+    margin-bottom: 0;
+  }
+  .parameters .md-content .wrap-param .right-param .form-param .form-row .param-item{
+    width: 50%;
+    text-align: center;
+  }
+  .parameters .md-content .wrap-param .right-param .form-param .form-row{
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 320px){
+  .parameters .md-content .wrap-param .right-param .form-param .form-row .param-item{
+    width: 100%;
+  }
+  .wrapper-catalogue .wrap-tires .tires-item{
+    width: 92%;
+  }
+  .wrapper-catalogue .wrap-tires{
+    padding: 8px 0 5px;
+  }
+  .wrapper-catalogue .wrap-tires .tires-item{
+    margin-bottom: 16px;
+  }
+  .sale{
+    padding: 8px 0 9px;
+  }
+  .sale .txt{
+    line-height: 24px;
+  }
+  .wrap-buy .advantages .plus .desc{
+    font-size: 18px;
+    padding-top: 8px;
+  }
+  .wrap-buy .advantages .plus img{
+    width: 17%;
+  }
+  .wrap-buy .advantages .plus:nth-child(2) img{
+    width: 17%;
+  }
+  .wrap-buy .advantages .plus{
+    padding-bottom: 25px;
+  }
+  .wrap-buy .advantages{
+    padding: 25px 0 0 0;
+  }
+  .wrap-buy .buy-title {
+      font-size: 30px;
+      padding-left: 17px;
+      padding-top: 55px;
+      letter-spacing: -.3px;
+      padding-bottom: 25px;
+  }
+  .wrap-buy .wrap-steps .step1, .wrap-buy .wrap-steps .step2, .wrap-buy .wrap-steps .step3{
+    padding-bottom: 54px;
+  }
+  .wrap-buy .wrap-steps .step1 .wrap-num {
+      margin-bottom: 6px;
+  }
+  .wrap-buy .wrap-steps .step1 .send, .wrap-buy .wrap-steps .step2 .send, .wrap-buy .wrap-steps .step3 .send {
+      font-size: 20px;
+      width: 87%;
+      padding: 10px 0px;
+      height: 47px;
+  }
+  .wrap-buy .wrap-steps .step2 .wrap-num {
+      margin-bottom: 1px;
+  }
+  .wrap-buy .wrap-steps .step1 .adresses, .wrap-buy .wrap-steps .step2 .adresses, .wrap-buy .wrap-steps .step3 .adresses {
+      font-size: 17px;
+      margin-left: 55px;
+  }
+  .wrap-buy{
+    padding-bottom: 0;
+  }
+  .wrap-buy .wrap-steps .step3{
+    padding-bottom: 46px;
+  }
+}
